@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Campuses</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyAJ914nvbWDv457JXNCo8GBPig_F_3HTvw"></script>
+  <script src="maps.js"></script>
+</head>
+
+<body>
+
+  <div class="row green lighten-4">
+
+    <div class="col s3">
+      <div class="mini_nav">
+        <button class="waves-effect waves-light btn-large col s12 margined_btn" type="button" name="chinese_school">中文学校</button>
+        <button class="waves-effect waves-light btn-large col s12 margined_btn" type="button" name="scholarship_classes">奖学金班</button>
+        <button class="waves-effect waves-light btn-large col s12 margined_btn" type="button" name="chinese_school">下载报名资料</button>
+      </div>
+    </div>
+
+    <div class="col s9 white left-border">
+
+      <div class="mapspace" id="Office">
+      </div>
+
+      <div class="mapspace" id="WH" style="display: none;">
+      </div>
+
+      <div class="mapspace" id="Tem" style="display: none;">
+      </div>
+
+      <div class="mapspace" id="Ash" style="display: none;">
+      </div>
+
+      <div class="mapspace" id="Don" style="display: none;">
+      </div>
+
+      <div class="mapspace" id="Haw" style="display: none;">
+      </div>
+
+
+      <button id="whButton" class="waves-effect waves-light btn-large"> Wheeler's Hill </button>
+      <button id="temButton" class="waves-effect waves-light btn-large"> Templestowe </button>
+      <button id="ashButton" class="waves-effect waves-light btn-large"> Ashwood </button>
+      <button id="donButton" class="waves-effect waves-light btn-large"> Doncaster </button>
+      <button id="hawButton" class="waves-effect waves-light btn-large"> Hawthorn </button>
+
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src='js.js'></script>
+</body>
+</html>
