@@ -44,6 +44,55 @@
 .mapspace {
   height: 350px;
   width: 100%;
-  margin-top: 2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+.course_details {
+  padding: 1vw;
+}
+
+.campus_btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.campus_btns button {
+  width: 18%;
+  font-size: 1.1vw;
+}
+
+.article-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5vw;
+}
+
+.article-item > :first-child {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin-right: 10%;
+}
+
+.article-item > h3 {
+  font-size: 4.5vw;
+}
+
+.article-item > p {
+  text-align: justify;
+}
+
+.article-item span {
+  width: 100%;
+  text-align: right;
+  margin-top: 1vw;
   margin-bottom: 2vw;
+  font-weight: bolder;
+}
+
+.article-item > img {
+  width: 50%;
+  padding: 0.5vw;
 }
