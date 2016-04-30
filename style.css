@@ -96,3 +96,13 @@
   width: 50%;
   padding: 0.5vw;
 }
+
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 2vw;
+  width: 46%;
+}
